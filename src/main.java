@@ -12,8 +12,6 @@ public class main {
         File file = new File("D:/rafav/Documents/CEFET/Projetos/desafio-meteor/src/img/meteor.png");
         BufferedImage image = null;
 
-        ArrayList<Color> colors = new ArrayList<Color>();
-
         try {
             image = ImageIO.read(file);
         } catch (IOException exception) {
